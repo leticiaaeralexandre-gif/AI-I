@@ -1,0 +1,41 @@
+/* Limpa as estilizações implementadas por defeito pelos browsers nos elementos HTML */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+/* ESTILO GERAL */
+
+/* ---- */
+
+
+/* ESTILO HEADER */
+
+/* ---- */
+
+
+/* ESTILO HERO SPACE */
+
+/* ---- */
+
+
+/* ESTILO HIGHTLIGHTS */
+
+/* ---- */
+
+
+/* ESTILO ACTIVITIES */
+
+/* ---- */
+
+
+/* ESTILO TIMELINE */
+
+/* ---- */
+
+
+/* ESTILO FOOTER */
+
+/* ---- */
