@@ -1,41 +1,108 @@
-/* Limpa as estilizações implementadas por defeito pelos browsers nos elementos HTML */
 * {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
-/* ESTILO GERAL */
+.footer-eunice {
+    background-color: #f5f5f5;
+    padding: 30px;
+    font-family: Helvetica;
+}
 
-/* ---- */
+.footer-topo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.footer-marca {
+    display: flex;
+    align-items: center;
+}
 
-/* ESTILO HEADER */
+.logo-eunice {
+    width: 130px;
+    height: auto;
+    margin-right: 20px;
+}
 
-/* ---- */
+.footer-titulo {
+    font-size: 14px;
+    color: #545454;
+    margin: 0;
+}
 
+.footer-anos {
+    font-size: 14px;
+    color: #e6b800;
+    margin: 0;
+}
 
-/* ESTILO HERO SPACE */
+.redes-sociais-container {
+    display: flex;
+    align-items: center;
+}
 
-/* ---- */
+.rede-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 64px;
+    height: 64px;
+    margin-left: 16px;
+    text-decoration: none;
+}
 
+.circulo-rede {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    background-color: transparent;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #d6d4cd;
+}
 
-/* ESTILO HIGHTLIGHTS */
+.icone-img {
+    width: 20px;
+    height: 20px;
+}
 
-/* ---- */
+.rede-social:hover .circulo-rede {
+    background-color: #e6b800;
+    border-color: #e6b800;
+}
 
+.rede-social:hover .icone-img {
+    width: 26px;
+    height: 26px;
+}
 
-/* ESTILO ACTIVITIES */
+.footer-linha {
+    border-style: solid;
+    border-width: 1px;
+    color: #e0e0e0;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
 
-/* ---- */
+.footer-base {
+    display: flex;
+    align-items: center;
+}
 
+.eu-flag {
+    width: 110px;
+    height: auto;
+    margin-right: 20px;
+}
 
-/* ESTILO TIMELINE */
-
-/* ---- */
-
-
-/* ESTILO FOOTER */
-
-/* ---- */
+.footer-aviso {
+    font-size: 12px;
+    color: #777777;
+    max-width: 600px;
+    line-height: 1.5;
+    margin: 0;
+}
