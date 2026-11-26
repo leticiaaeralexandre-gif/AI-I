@@ -17,7 +17,8 @@ header {
   justify-content: space-between;
   align-items: center;
   background-color: #f2f2f2;
-  padding: 20px 40px;
+  padding: 25px 80px;
+  border-bottom: 1px solid #d9d9d9;
 }
 
 header > div {
@@ -58,19 +59,9 @@ header nav a:hover {
   color: #febf00;
   transition: color 0.2s ease;
 }
-
 /* ---- */
 
-
-/* LINHA QUE SEPARAR O HEADER DO HERO SPACE */
-
-header {
-  border-bottom: 1px solid #d9d9d9;
-}
-
-
 /* ESTILO HERO SPACE */
-
 #hero-space {
   display: flex;
   align-items: flex-start;
